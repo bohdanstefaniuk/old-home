@@ -1,0 +1,19 @@
+.block-30 {
+	width: 29%;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.block-30 img {
+	display: block !important;
+}
+
+.block-70 {
+	width: 70%;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
+	vertical-align: top;
+}

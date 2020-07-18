@@ -1,0 +1,282 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Bohdan Stefaniuk</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="src/styles/style.css">
+	<link rel="stylesheet" href="src/styles/blocks.css">
+	<link rel="stylesheet" href="src/styles/taskbar.css">
+	<link rel="stylesheet" href="src/styles/startwindows.css">
+
+	<link rel="stylesheet" href="src/styles/windows/common.css">
+	<link rel="stylesheet" href="src/styles/windows/about.css">
+	<link rel="stylesheet" href="src/styles/windows/contacts.css">
+	<link rel="stylesheet" href="src/styles/windows/skills.css">
+	<link rel="stylesheet" href="src/styles/windows/projects.css">
+	<link rel="stylesheet" href="src/styles/elements/wordart.css">
+	<link rel="stylesheet" href="src/styles/elements/scrollbar.css">
+</head>
+
+<body id="body">
+	<div class="background" id="background"></div>
+	<div class="Window About" id="about-window">
+		<div class="window_heading flex" id="about-window-header">
+			<div class="flex">
+				<div class="icon"></div>
+				<p class="title">about.exe</p>
+			</div>
+			<div class="window_heading_buttons">
+				<div class="window_heading_button" id="about-window-close"><span>X</span></div>
+				<div class="window_heading_button" id="about-window-hide"><span id="hide">_</span></div>
+			</div>
+		</div>
+		<div class="window-content">
+			<div style="width: 25%;">
+				<img src="assets/images/myPhoto.jpg" alt="profile photo">
+			</div>
+			<div style="width: 70%;">
+				<h2>Bohdan Stefaniuk</h2>
+				<p>
+					Hello, my name is Bohdan. I am 23 years old, and I am software developer.
+					This website i created when i was 19. I was learning how to develop websites with HTML\CSS and JavaScript back then.
+					It stayed the same as it was then. I just updated the skills and projects information.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="Window Contact" id="contact-window">
+		<div class="window_heading flex" id="contact-window-header">
+			<div class="flex">
+				<div class="icon"></div>
+				<p class="title">contact.exe</p>
+			</div>
+			<div class="window_heading_buttons">
+				<div class="window_heading_button" id="contact-window-close"><span>X</span></div>
+				<div class="window_heading_button" id="contact-window-hide"><span id="hide">_</span></div>
+			</div>
+		</div>
+		<div class="window-content">
+			<div class="window-contacts">
+				<fieldset>
+					<legend>My contact information</legend>
+					<div class="clearfix">
+						<img src="assets/icons/phone_desk.ico" alt="" class="left">
+						<p class="left window-contact"><strong>Phone number: </strong>+38 (000) 000 00 00</p>
+					</div>
+					<div class="clearfix">
+						<img src="assets/icons/outlook_express.ico" alt="" class="left" style="width: 32px;">
+						<p class="left window-contact"><strong>Mail: </strong>bogdanstefanjuk@gmail.com</p>
+					</div>
+					<div class="clearfix">
+						<img src="assets/icons/message_file.ico" alt="" class="left">
+						<p class="left window-contact"><strong>Telegram: </strong><a href="https://t.me/bohdanstefaniuk">@bohdanstefaniuk</a></p>
+					</div>
+					<div class="clearfix">
+						<img src="assets/icons/world_address_book.ico" alt="" class="left">
+						<p class="left window-contact"><strong>Website: </strong><a href="https://stefaniuk.website">stefaniuk.website</a></p>
+					</div>
+					<div class="clearfix">
+						<img src="assets/icons/regedit_binary.ico" alt="" class="left">
+						<p class="left window-contact"><strong>GiHub: </strong><a href="https://github.com/teamkiller7112">@teamkiller7112</a></p>
+					</div>
+				</fieldset>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="Window Skills" id="skills-window">
+		<div class="window_heading flex" id="skills-window-header">
+			<div class="flex">
+				<div class="icon"></div>
+				<div id="title">skills.exe</div>
+			</div>
+			<div class="window_heading_buttons">
+				<div class="window_heading_button" id="skills-window-close"><span>X</span></div>
+				<div class="window_heading_button" id="skills-window-hide"><span id="hide">_</span></div>
+			</div>
+		</div>
+		<div class="window-content">
+			<img src="assets/images/windows/word-tools-bar.png" alt="tool bar" />
+			<div class="article">
+				<div class="article-title">
+					<div class="word-art-rainbow">
+						<h3 class="text">
+							<span class="pseudo">My professional skills</span>
+							My professional skills
+						</h3>
+					</div>
+				</div>
+				<div class="article-content">
+					<p><strong>Main tech stack — .NET</strong></p>
+					<ul>
+						<li>ASP.NET: Core, MVC, WebAPI</li>
+						<li>Testing: NUnit, MSTest</li>
+						<li>ORM: Entity Framework, Linq to SQL, Dapper</li>
+						<li>SQL Server and T-SQL</li>
+						<li>Schedulers: Quartz, FluentScheduler</li>
+						<li>Ect. (Autofac, AutoMapper, Polly)</li>
+					</ul>
+					<p><strong>Web stack</strong></p>
+					<ul>
+						<li>HTML/CSS</li>
+						<li>JavaScript</li>
+						<li>Angular 9</li>
+						<li>Knockout.js</li>
+					</ul>
+					<p><strong>Software methodologies</strong></p>
+					<ul>
+						<li>Design Patterns</li>
+						<li>Domain-Driven Design</li>
+						<li>SOLID</li>
+						<li>TDD</li>
+					</ul>
+					<p><strong>Additional Skills</strong></p>
+					<ul>
+						<li>Builds and support CI/CD processes in companies where i worked.</li>
+						<li>SVN/Git/TFS</li>
+						<li>PowerShell</li>
+						<li>Optimise SQL Server performance.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="Window Projects" id="projects-window">
+		<div class="window_heading flex" id="projects-window-header">
+			<div class="flex">
+				<div class="icon"></div>
+				<p class="title">projects.exe</p>
+			</div>
+			<div class="window_heading_buttons">
+				<div class="window_heading_button" id="projects-window-close"><span>X</span></div>
+				<div class="window_heading_button" id="projects-window-hide"><span id="hide">_</span></div>
+			</div>
+		</div>
+		<div class="window-content">
+			<img src="assets/images/windows/word-tools-bar.png" alt="tool bar" />
+			<div class="article scrollbar">
+				<div class="article-title">
+					<div class="word-art-orange-3d">
+						<h3 class="text">
+							<span class="pseudo">Projects</span>
+							Projects
+						</h3>
+					</div>
+				</div>
+				<div class="article-content">
+					<p><strong>Semantica — theme for vs code</strong></p>
+					<p>
+						<em>April 2020</em><br>
+						Minimalist theme, which does not distract from the process of code writing.<br>
+						Description (rus): <a href="https://stefaniuk.website/all/semantica-tema-dlya-visual-studio-code/">https://stefaniuk.website/all/semantica-tema-dlya-visual-studio-code/</a>
+					</p>
+					<p><strong>Warehouse</strong></p>
+					<p>
+						<em>Middle of 2019</em><br>
+						Current status: closed<br>
+						Warehouse is an application that allows you to save bookmarks and organize them using tags. Doing it first of all for yourself. Also this project serves for me as a platform for testing new technological solutions. I plan to open source code at Github in the near future.
+						<br><br>
+						Tech stack: ASP.NET Core, Entity Framework Core, PostgreSQL, JavaScript, bash.
+					</p>
+					<p><strong>Website for Educational hub «ABC» school</strong></p>
+					<p>
+						<em>Middle of 2018</em>
+						<br>
+						Current status: live (<a href="https://educationalhub-abc.com.ua/">link</a>)
+						<br>
+						Engaged in the full development cycle (design, frontend and backend).
+						<br><br>
+						Tech stack: ASP.NET Core, SQLite, Entity Framework Core, HTML/CSS, bash.
+					</p>
+					<p><strong>Windows server manager</strong></p>
+					<p>
+						<em>Beginning of 2018</em><br>
+						Current status: closed<br>
+						Web application to manage Windows based servers using the web interface. Part of the functionality has been customized specifically for our team at work. At the moment the project is not active as it has lost its relevance. There are plans to restore it and make it more versatile.
+						<br><br>
+						Tech stack: ASP.NET MVC, Entity Framework, SQL Server, JavaScript.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div class="task-bar">
+		<div class="start-button" id="start-button">
+			<img src="assets/icons/windows.ico">
+			<p>Start</p>
+		</div>
+		<div class="task-bar-divider"></div>
+		<div class="task-in-task-bar" id="about-window-task">
+			<img src="assets/icons/user_world.ico">
+			<p>About me</p>
+		</div>
+		<div class="task-in-task-bar" id="contact-window-task">
+			<img src="assets/icons/address_book.ico">
+			<p>My contacts</p>
+		</div>
+		<div class="task-in-task-bar" id="skills-window-task">
+			<img src="assets/icons/users.ico">
+			<p>Skills</p>
+		</div>
+		<div class="task-in-task-bar" id="projects-window-task">
+			<img src="assets/icons/users.ico">
+			<p>Projects</p>
+		</div>
+		<div class="clock">
+			<span id="clock-time">00:00</span>
+		</div>
+	</div>
+	<div class="start-window" id="start-window">
+		<div class="start-window-logo"></div>
+		<div class="start-window-content">
+			<div class="start-window-item" id="about-window-start">
+				<img src="assets/icons/user_world.ico">
+				<p>About me</p>
+			</div>
+			<div class="start-window-item" id="contact-window-start">
+				<img src="assets/icons/address_book.ico">
+				<p>My contacts</p>
+			</div>
+			<div class="start-window-item" id="skills-window-start">
+				<img src="assets/icons/users.ico">
+				<p>Skills</p>
+			</div>
+			<div class="start-window-item" id="projects-window-start">
+				<img src="assets/icons/users.ico">
+				<p>Projects</p>
+			</div>
+		</div>
+	</div>
+	<script src="src/js/firstload.js"></script>
+	<script src="src/js/background.js"></script>
+	<script src="src/js/clock.js"></script>
+	<script src="src/js/dragndrop.js"></script>
+	<script src="src/js/windows.js"></script>
+	<script>
+		init();
+		setRandomBackground();
+		initClock();
+		dragElement(document.getElementById("about-window"));
+		dragElement(document.getElementById("contact-window"));
+		dragElement(document.getElementById("skills-window"));
+		dragElement(document.getElementById("projects-window"));
+
+		setWindow(document.getElementById("about-window"));
+		setWindow(document.getElementById("contact-window"));
+		setWindow(document.getElementById("skills-window"));
+		setWindow(document.getElementById("projects-window"));
+		setStartMenu();
+	</script>
+</body>
+
+</html>

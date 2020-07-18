@@ -1,0 +1,14 @@
+.About .window-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.About img {
+	width: 100%;
+	border: 1px dashed #000;
+}
+
+.About .icon {
+    background: url('../../../assets/icons/user_world.ico') no-repeat;
+}

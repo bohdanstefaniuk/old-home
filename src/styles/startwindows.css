@@ -1,0 +1,66 @@
+.start-window {
+	position: absolute;
+	left: 0;
+	bottom: 35px;
+	width: 250px;
+	height: 450px;
+	z-index: 2000;
+	padding: 5px;
+	background-color: #C0C0C0;
+    border-top: 2px solid #FFFFFF;
+    border-left: 2px solid #FFFFFF;
+    border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+	
+	-moz-user-select: none; /* Mozilla Firefox */
+	-ms-user-select: none; /* Internet Explorer (не поддерживается) */
+	-o-user-select: none; /* Opera Presto (не поддерживается) */
+	-webkit-user-select: none; /* Google Chrome, Opera Next, Safari */
+
+	display: none;
+}
+
+.start-window-logo {
+	width: 25px;
+	height: 435px;
+	background-color: #000080;
+	display: inline-block;
+	float: left;
+
+}
+
+.start-window-content {
+	height: 435px;
+	display: inline-block;
+	float: left;
+	margin-left: 15px;
+	padding-top: 15px;
+}
+
+.start-window-item {
+	cursor: pointer;
+	margin-bottom: 15px;
+	width: 180px;
+}
+
+.start-window-item:hover {
+	border: 1px solid;
+	border-color: black;
+}
+
+.start-window-item:active {
+	border-left-color: #000;
+	border-top-color: #000;
+	border-bottom-color: #fff;
+	border-right-color: #fff;
+}
+
+.start-window-item img {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+
+.start-window-item p {
+	display: inline-block;	
+}

@@ -1,0 +1,7 @@
+.Contact .window-content{
+    padding: 30px;
+}
+
+.Contact .icon {
+    background: url('../../../assets/icons/address_book.ico') no-repeat;
+}

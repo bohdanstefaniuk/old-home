@@ -1,0 +1,249 @@
+
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {clear: both;}
+
+.left {float:left;}
+.right {float:right;}
+.text-center{text-align: center;}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+
+
+
+
+.background {
+    position: fixed;
+	z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: cover;
+    top: 0;
+    left: 0;
+}
+
+.Main {
+    margin-top: 100px;
+}
+
+.Window {
+    width: inherit;
+    /* margin-top: 30px; */
+    background-color: #C0C0C0;
+    border-top: 2px solid #FFFFFF;
+    border-left: 2px solid #FFFFFF;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    position: absolute;
+    z-index: 100;
+}
+
+.window_heading {
+    cursor: move;
+    margin: 2px 2px 0;
+    padding: 1px 2px;
+    color: #fff;
+    background: linear-gradient(to right, #000080, #1084d0);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.window_heading {
+    cursor: move;
+    margin: 2px 2px 0;
+    padding: 1px 2px;
+    color: #fff;
+    background: linear-gradient(to right, #000080, #1084d0);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.window_heading_name {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+.window_heading_buttons {
+    margin: 1px 0;
+    width: 50px;
+    height: 14px;
+}
+
+.window_heading_button {
+    width: 16px;
+    height: 16px;
+    font-size: 10px;
+    background-color: #C0C0C0;
+    border: 2px solid;
+    border-left-color: #fff;
+    border-top-color: #fff;
+    border-bottom-color: #000;
+    border-right-color: #000;
+    cursor: pointer;
+    position: relative;
+    float: right;
+    margin-left: 4px;
+}
+
+.window_heading_button:active {
+    border-left-color: #000;
+    border-top-color: #000;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+}
+
+.window_heading_button span {
+    color: #000000;
+    top: 2px;
+    left: 2px;
+    position: absolute;
+    margin-top: -5px;
+    -webkit-user-select: none;
+    /* user-select -- это нестандартное свойство */
+    -moz-user-select: none;
+    /* поэтому нужны префиксы */
+    -ms-user-select: none;
+}
+
+.window_heading_button #hide {
+    top: 0px;
+    left: 3px;
+    font-weight: bolder;
+    -webkit-user-select: none;
+    /* user-select -- это нестандартное свойство */
+    -moz-user-select: none;
+    /* поэтому нужны префиксы */
+    -ms-user-select: none;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) { 
+  .window_heading_buttons {
+    /* background-image: url('https://dl.dropboxusercontent.com/u/16697297/themes/releases/win98_v2/win98_window_controls@2x.png');
+    background-size: 50px 14px; */
+  }
+}
+
+.window-content {
+    width: 100%;
+    padding: 15px;
+}
+
+#shortInfo {
+    margin-left: -30px;
+}
+
+#shortInfo h2 {
+    margin-top: 0px;
+    font-weight: bolder;
+}
+
+#shortInfo p {
+    font-size: 15px;
+}
+
+fieldset {
+    font-family: sans-serif;
+    border: 1px solid #000;
+    padding: 5px 20px;
+}
+
+fieldset legend {
+    width:inherit; /* Or auto */
+    font-size: 17px;
+    padding: 0 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
+}
+
+.window-contacts {
+    /* border: 1px solid #000; */
+    position: relative;
+}
+
+.window-contact {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+
+.window_content_inner {
+  background: #fff;
+  border: 1px solid;
+  border-top-color: #000;
+  border-left-color: #000;
+  border-bottom-color: #dfdfdf;
+  border-right-color: #dfdfdf;
+  padding: 10px;
+}
+
+.window_content_inner_title {
+    padding-left: 10px;
+    font-weight: bold;
+    background-color: #F1F1F1;
+}
+
+.lng-logo {
+    width: 89px;
+    height: 75px;
+}
+
+.lng_block {
+    margin-left: 20px;
+    width: 89px;
+    display: inline-block;
+}
+.lng_block:first-child {
+    margin-left: 0px !important;
+}
+
+#about-window {
+    width: 700px;
+    top: 20px;
+    left: 20px;
+}
+
+#contact-window {
+    width: 400px;
+    top: 288px;
+    left: 20px;
+}
+

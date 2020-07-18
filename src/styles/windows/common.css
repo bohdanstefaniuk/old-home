@@ -1,0 +1,39 @@
+.Window .icon {
+    background-size: 16px 16px !important;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.Window .title {
+    padding: 0;
+    margin: 0;
+}
+
+.Window .article {
+    width: 630px;
+	margin: 5px auto;
+	background: #fff;
+    border: 1px solid;
+    border-top-color: #000;
+    border-left-color: #000;
+    border-bottom-color: #dfdfdf;
+    border-right-color: #dfdfdf;
+    padding: 10px;
+}
+
+.Window .article-title {
+	text-align: center;
+}
+
+.Window .article-content {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.Window .article-content strong {
+    font-size: 19px;
+}
+
+.Window .article-content ul {
+    padding-left: 25px;
+}

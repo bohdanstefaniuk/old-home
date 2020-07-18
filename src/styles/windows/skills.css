@@ -1,0 +1,13 @@
+.Skills {
+	width: 645px;
+    top: 20px;
+    left: 731px;
+}
+
+.Skills .window-content {
+	padding: 0px;
+}
+
+.Skills .icon {
+    background: url('../../../assets/icons/users.ico') no-repeat;
+}
